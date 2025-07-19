@@ -5,7 +5,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 import streamlit as st
 import os
-os.environ["GOOGLE_API_KEY"] = "AIzaSyD_GDKAQ6uG9FtuvQ92qzHpa4mqIUV79Po"
+os.environ["GOOGLE_API_KEY"] = "##"
 
 
 st.header("GITRAG")

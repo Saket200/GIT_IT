@@ -51,7 +51,7 @@ class CodeRefactor(BaseModel):
     changes_made: List[str] = Field(description="List of changes made during refactoring")
     benefits: List[str] = Field(description="Benefits of the refactoring")
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyD_GDKAQ6uG9FtuvQ92qzHpa4mqIUV79Po"
+os.environ["GOOGLE_API_KEY"] = "##"
 # Check for Google AI API key
 if "GOOGLE_API_KEY" not in os.environ:
     st.error("Please set the GOOGLE_API_KEY environment variable.")
